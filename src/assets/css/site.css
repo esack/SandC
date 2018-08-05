@@ -1,0 +1,74 @@
+body {
+  font-size: 1.7em;
+}
+
+.info-box-text {
+  font-size: 1.1em;
+}
+
+.tags {
+    padding-left: 5px;
+}
+
+.tag {
+    width: 150px;
+    margin-left: 10px;
+    float: left;
+}
+
+.bg-light-gray {
+    background-color: #ECF0F5;
+}
+
+.z-front {
+    z-index: 5000;
+}
+
+.file-version {
+    border-bottom: 1px solid #F9F9F9;
+}
+
+.file-version .checkbox{
+    margin : 0;
+}
+
+.file-version > div {
+    padding-top: 11px;
+    padding-bottom: 11px; 
+}
+
+.img-circle {
+    color: #fff;
+    font-size: 40px;
+    margin-left: 14px;
+}
+
+.user-panel>.info {
+    top: 20px;
+}
+
+.fileActions {
+    position: absolute;
+    bottom: 12px;
+    right: 18px;
+    font-size: 22px; 
+}
+
+.fileActions a {
+    margin-left: 5px;
+}
+
+.info-box-content .dropzone .dz-message{
+    margin: 0px !important;
+}
+
+.modal {
+  position: absolute;
+}
+
+@media (min-width: 768px){
+  .modal-dialog {
+    width: 1000px;
+  }
+}
+
